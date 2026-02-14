@@ -17,6 +17,36 @@ Each skill is self-contained in its own folder with a `SKILL.md` file containing
 
 Many skills in this repo are open source (Apache 2.0). We've also included the document creation & editing skills that power [Claude's document capabilities](https://www.anthropic.com/news/create-files) under the hood in the [`skills/docx`](./skills/docx), [`skills/pdf`](./skills/pdf), [`skills/pptx`](./skills/pptx), and [`skills/xlsx`](./skills/xlsx) subfolders. These are source-available, not open source, but we wanted to share these with developers as a reference for more complex skills that are actively used in a production AI application.
 
+## Available Skills
+
+### Document Skills (Source-Available)
+- **[xlsx](./skills/xlsx)** - Create, read, and edit spreadsheet files (.xlsx, .xlsm, .csv, .tsv)
+- **[docx](./skills/docx)** - Create, read, and manipulate Word documents with formatting
+- **[pptx](./skills/pptx)** - Create and edit PowerPoint presentations
+- **[pdf](./skills/pdf)** - Read, extract, merge, split, and manipulate PDF files
+
+### Creative & Design (Apache 2.0)
+- **[algorithmic-art](./skills/algorithmic-art)** - Create generative art using p5.js with seeded randomness
+- **[canvas-design](./skills/canvas-design)** - Create beautiful visual art in PNG and PDF documents
+- **[theme-factory](./skills/theme-factory)** - Apply styling themes to artifacts (slides, docs, landing pages)
+- **[slack-gif-creator](./skills/slack-gif-creator)** - Create animated GIFs optimized for Slack
+
+### Development & Technical (Apache 2.0)
+- **[skill-creator](./skills/skill-creator)** - Guide for creating effective skills
+- **[mcp-builder](./skills/mcp-builder)** - Create Model Context Protocol (MCP) servers
+- **[webapp-testing](./skills/webapp-testing)** - Test local web applications using Playwright
+- **[frontend-design](./skills/frontend-design)** - Create production-grade frontend interfaces
+- **[web-artifacts-builder](./skills/web-artifacts-builder)** - Build complex multi-component HTML artifacts
+
+### Enterprise & Communication (Apache 2.0)
+- **[internal-comms](./skills/internal-comms)** - Write internal communications (status reports, updates, FAQs)
+- **[brand-guidelines](./skills/brand-guidelines)** - Apply Anthropic's brand colors and typography
+- **[doc-coauthoring](./skills/doc-coauthoring)** - Structured workflow for co-authoring documentation
+
+### Content Analysis & Discovery (Apache 2.0)
+- **[bilibili-analyzer](./skills/bilibili-analyzer)** - Analyze Bilibili video content including frames, subtitles, comments, and danmaku
+- **[github-trending](./skills/github-trending)** - Collect and summarize top trending repositories from GitHub
+
 ## Disclaimer
 
 **These skills are provided for demonstration and educational purposes only.** While some of these capabilities may be available in Claude, the implementations and behaviors you receive from Claude may differ from what is shown in these skills. These skills are meant to illustrate patterns and possibilities. Always test skills thoroughly in your own environment before relying on them for critical tasks.
